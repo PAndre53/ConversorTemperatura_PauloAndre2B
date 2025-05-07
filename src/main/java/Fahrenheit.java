@@ -4,8 +4,13 @@ public class Fahrenheit extends Temperatura {
         super(grausTemp);
     }
     
-    //CONVERTER FAHRENHEIT PARA CELSIUS
+    //MÉTODO PARA CONVERTER DE FAHRENHEIT PARA CELSIUS
     public double paraCelsius(){
-        return (getGraus
+        return (getGraus()-32)*5/9;
+    }
+    
+    //MÉTODO PARA CONVERTER DE FAHRENHEIT PARA KELVIN
+    public double paraKelvin(){
+        return paraCelsius()+273.15;
     }
 }

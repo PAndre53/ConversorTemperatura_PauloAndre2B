@@ -16,3 +16,4 @@ public class Temperatura {
     public void setGraus(double novoGraus){
         this.graus = novoGraus;
     }
+}    
